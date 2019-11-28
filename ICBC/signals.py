@@ -19,7 +19,7 @@ def template_render(sender,template,context):
     print(sender)
     print('********************')
     print(template)
-    print('********************')
+    print('*****************')
     print(context)
 template_rendered.connect(template_render)
 
